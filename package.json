@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install && gulp restore",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "dependencies": {
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/forms": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "@angular/router": "~4.0.0",
+    "systemjs": "0.20.9",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "5.2.0",
+    "zone.js": "^0.8.5",
+    "angular-in-memory-web-api": "~0.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.3.0",
+    "@types/core-js": "^0.9.36",
+    "@types/node": "^7.0.7",
+    "tslint": "^4.5.1",
+    "async": "^2.1.5",
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.0",
+    "gulp-cssmin": "0.1.7",
+    "gulp-uglify": "1.5.4",
+    "rimraf": "2.5.4",
+    "typescript": "^2.1.1",
+    "typings": "^2.0.0",
+    "pump": "^1.0.2"
+  }
+}

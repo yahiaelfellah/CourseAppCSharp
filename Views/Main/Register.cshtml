@@ -1,0 +1,42 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="ui raised very padded text container">
+    <h2 class="ui header centered">Register</h2>
+    <form asp-controller="Main" asp-action="Register" class="ui large form validate-me" method="post">
+        <div class="ui stacked segment">
+            <div class="field">
+                <div class="ui left icon input">
+                    <i class="user icon"></i>
+                    <input asp-for="Username" placeholder="Email Address"/>
+
+                </div>
+
+            </div>
+            <div class="field">
+                <div class="ui left icon input">
+                    <i class="lock icon"></i>
+                    <input asp-for="Password" type="password" placeholder="Password" />
+
+                </div>
+
+            </div>
+            <div class="field">
+                <div class="ui left icon input">
+                    <i class="lock icon"></i>
+                    <input asp-for="ConfirmPassword" type="password" placeholder="Confirm Password" />
+
+                </div>
+
+            </div>
+            <input type="submit" class="ui large green submit button" value="Register"/>
+            <div asp-validation-summary="All" style="color:red;"></div>
+
+        </div>
+        @Html.AntiForgeryToken()
+    </form>
+
+
+</div>

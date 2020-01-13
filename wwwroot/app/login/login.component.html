@@ -1,0 +1,32 @@
+﻿<div class="ui raised very padded text container" style="margin-right:5%;">
+    <h3 class="ui header centered">APP LOGIN FORM</h3>
+    <form class="ui large form validate-me">
+
+        <div class="ui stack segment">
+            <div class="field">
+                <div class="ui left icon input">
+                    <i class="user icon"></i>
+                    <input type="text" name="username" [(ngModel)]="model.username"  placeholder="Username" />
+                    <span style="color:red;"></span>
+                </div>
+            </div>
+            <div class="field">
+                <div class="ui left icon input">
+                    <i class="lock icon"></i>
+                    <input type="password" [(ngModel)]="model.password" name="password" placeholder="Password"/>
+                    <span style="color:red;"></span>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" (click)="authentication(model.username,model.password)" class="ui blue button">
+                    LOGIN
+                </button>
+            </div>
+
+            <div class="ui error" style="color:red;"></div>
+
+        </div>
+       
+    </form>
+</div>

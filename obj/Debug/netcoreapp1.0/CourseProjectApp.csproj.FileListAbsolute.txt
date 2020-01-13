@@ -1,0 +1,9 @@
+C:\Users\jcherri\Documents\Visual Studio 2015\Projects\Udemy\Core\Live\CourseProjectApp\src\CourseProjectApp\bin\Debug\netcoreapp1.0\CourseProjectApp.deps.json
+C:\Users\jcherri\Documents\Visual Studio 2015\Projects\Udemy\Core\Live\CourseProjectApp\src\CourseProjectApp\bin\Debug\netcoreapp1.0\CourseProjectApp.runtimeconfig.json
+C:\Users\jcherri\Documents\Visual Studio 2015\Projects\Udemy\Core\Live\CourseProjectApp\src\CourseProjectApp\bin\Debug\netcoreapp1.0\CourseProjectApp.runtimeconfig.dev.json
+C:\Users\jcherri\Documents\Visual Studio 2015\Projects\Udemy\Core\Live\CourseProjectApp\src\CourseProjectApp\bin\Debug\netcoreapp1.0\CourseProjectApp.dll
+C:\Users\jcherri\Documents\Visual Studio 2015\Projects\Udemy\Core\Live\CourseProjectApp\src\CourseProjectApp\bin\Debug\netcoreapp1.0\CourseProjectApp.pdb
+C:\Users\jcherri\Documents\Visual Studio 2015\Projects\Udemy\Core\Live\CourseProjectApp\src\CourseProjectApp\obj\Debug\netcoreapp1.0\UserSecretsAssemblyInfo.cs
+C:\Users\jcherri\Documents\Visual Studio 2015\Projects\Udemy\Core\Live\CourseProjectApp\src\CourseProjectApp\obj\Debug\netcoreapp1.0\CourseProjectApp.AssemblyInfo.cs
+C:\Users\jcherri\Documents\Visual Studio 2015\Projects\Udemy\Core\Live\CourseProjectApp\src\CourseProjectApp\obj\Debug\netcoreapp1.0\CourseProjectApp.dll
+C:\Users\jcherri\Documents\Visual Studio 2015\Projects\Udemy\Core\Live\CourseProjectApp\src\CourseProjectApp\obj\Debug\netcoreapp1.0\CourseProjectApp.pdb
